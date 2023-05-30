@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json.schemastore.org/template",
+  "author": "BlueXT",
+  "classifications": [
+    "Web",
+    "MVC"
+  ],
+  "name": "BlueXT Clean Solution",
+  "identity": "BlueXT.Solution.CSharp",
+  "groupIdentity": "BlueXT.Solution",
+  "shortName": "bluext-sln",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "BlueXT",
+  "preferNameDirectory": true,
+  "sources": [
+    {
+      "source": "./",
+      "target": "./",
+      "exclude": [
+        "README.md",
+        "**/[Bb]in/**",
+        "**/[Oo]bj/**",
+        ".template.config/**/*",
+        ".vs/**/*",
+        "**/*.filelist",
+        "**/*.user",
+        "**/.git/**",
+        "*.nuspec",
+        "**/.idea/**"
+      ]
+    }
+  ]
+}
