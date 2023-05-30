@@ -50,4 +50,7 @@
         <Error Text="$(NSwagOutput)" Condition="'$(NSwagExitCode)' != '0'" />
     </Target>
 
+    <ItemGroup>
+        <InternalsVisibleTo Include="BlueXT.Application.IntegrationTests"/>
+    </ItemGroup>
 </Project>
